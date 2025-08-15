@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Shopify 开发文档</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+    <style>
+    /* 左上角固定 Logo 区域 */
+    .custom-brand {
+      position: fixed;
+      top: 10px;
+      left: 16px;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+    .custom-brand img {
+      height: 24px;
+      width: auto;
+      display: block;
+    }
+    .custom-brand span {
+      font-weight: 600;
+      color: #34495e;
+      font-size: 14px;
+    }
+
+    /* 右上角固定搜索框（覆盖默认位置，保证在右上角可见） */
+    .search {
+      position: fixed !important;
+      top: 10px;
+      right: 16px;
+      z-index: 1000;
+      margin: 0 !important;
+    }
+    .search input {
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1px solid #dcdcdc;
+      font-size: 14px;
+      min-width: 220px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+      background: #fff;
+    }
+
+    /* 给正文一点顶部空间，避免被固定元素遮住 */
+    .markdown-section {
+      padding-top: 56px;
+    }
+
+    /* 小屏优化 */
+    @media (max-width: 480px) {
+      .search { right: 10px; top: 8px; }
+      .search input { min-width: 160px; }
+      .custom-brand { left: 10px; top: 8px; }
+      .markdown-section { padding-top: 64px; }
+    }
+  </style>
+  </style>
+</head>
+<body>
+    <!-- 左上角品牌/Logo（把一张 logo.png 放到 docs/ 目录即可显示图片） -->
+  <a class="custom-brand" href="#/">
+    <img src="" alt="Logo" onerror="this.style.display='none'">
+    <span>Shopify 文档</span>
+  </a>
+  <div id="app">加载中…</div>
+  <script>
+    window.$docsify = {
+      name: 'Shopify 文档',
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      coverpage: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      search: {
+        maxAge: 86400000,       // 缓存一天
+        paths: 'auto',          // 自动索引所有页面
+        placeholder: '搜索文档...',
+        noData: '没有找到结果'
+      },
+      /* 利用插件钩子把搜索框从侧边栏移到右上角（确保无论主题如何都生效） */
+      plugins: [
+        function (hook, vm) {
+          hook.doneEach(function () {
+            // 默认 search 插件会把搜索框渲染在 .sidebar 内部
+            var el = document.querySelector('.search');
+            if (el && !el.classList.contains('custom-search')) {
+              el.classList.add('custom-search');
+              document.body.appendChild(el);
+            }
+          });
+        }
+      ]
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- 搜索插件 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+</body>
+</html>
