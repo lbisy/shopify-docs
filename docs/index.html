@@ -32,24 +32,43 @@
     .search {
       position: fixed !important;
       top: 10px;
-      right: 16px;
+      right: 60px;  /* 往左移 */
+      width: 220px;
       z-index: 1000;
       margin: 0 !important;
     }
+
     .search input {
       padding: 6px 10px;
       border-radius: 6px;
       border: 1px solid #dcdcdc;
       font-size: 14px;
-      min-width: 220px;
+      width: 220px;   /* 固定宽度 */
       box-shadow: 0 1px 2px rgba(0,0,0,0.04);
       background: #fff;
     }
 
-    /* 给正文一点顶部空间，避免被固定元素遮住 */
-    .markdown-section {
-      padding-top: 56px;
+   /* 去掉小叉号 */
+    .search input[type="search"]::-webkit-search-cancel-button {
+      -webkit-appearance: none;
+      appearance: none;
+      display: none;
     }
+
+
+    /* 给正文一点顶部空间，避免被固定元素遮住 */
+    /* 默认不加空白 */
+    .markdown-section {
+      padding-top: 60px;
+    }
+
+    /* 小屏幕才增加空白，避免搜索框覆盖 */
+    @media (max-width: 480px) {
+      .markdown-section {
+        padding-top: 48px;
+      }
+    }
+
 
     /* 小屏优化 */
     @media (max-width: 480px) {
@@ -75,7 +94,7 @@
       loadSidebar: true,
       subMaxLevel: 2,
       auto2top: true,
-      coverpage: true,
+      coverpage: false,
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
       },
@@ -87,17 +106,33 @@
       },
       /* 利用插件钩子把搜索框从侧边栏移到右上角（确保无论主题如何都生效） */
       plugins: [
-        function (hook, vm) {
-          hook.doneEach(function () {
-            // 默认 search 插件会把搜索框渲染在 .sidebar 内部
-            var el = document.querySelector('.search');
-            if (el && !el.classList.contains('custom-search')) {
-              el.classList.add('custom-search');
-              document.body.appendChild(el);
+      function (hook, vm) {
+        hook.doneEach(function () {
+          // 默认 search 插件会把搜索框渲染在 .sidebar 内部
+          var el = document.querySelector('.search');
+          if (el && !el.classList.contains('custom-search')) {
+            el.classList.add('custom-search');
+            document.body.appendChild(el);
+
+            // ✅ 监听搜索结果点击后清空输入框
+            const input = el.querySelector('input');
+            const results = el.querySelector('.results-panel');
+
+            if (results && input) {
+              results.addEventListener('click', function (e) {
+                if (e.target.tagName === 'A') {
+                  // 清空输入框
+                  input.value = '';
+                  // 隐藏结果列表
+                  results.style.display = 'none';
+                }
+              });
             }
-          });
-        }
-      ]
+          }
+        });
+      }
+    ]
+
     };
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
