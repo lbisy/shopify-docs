@@ -78,12 +78,3 @@
 
 ### 截图示例
 ![Screenshot](.vuepress/public/screenshot.png)
-
----
-
-## 使用说明
-
-1. 将整个 `docs` 文件夹放置在 WordPress 主题开发或文档项目根目录下。
-2. 确保安装 [VuePress](https://vuepress.vuejs.org/):
-   ```bash
-   npm install -g vuepress
