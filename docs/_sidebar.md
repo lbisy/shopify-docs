@@ -1,11 +1,24 @@
 - 简介
   - [项目简介](README.md)
-- 主题开发
-  - [文件结构](theme/structure.md)
-  - [自定义 Section](theme/sections.md)
-- 应用集成
-  - [API 接入](app/api.md)
-  - [Webhook 配置](app/webhook.md)
-- 部署与上线
-  - [测试环境部署](deploy/dev.md)
+- gettin-stared
+  - [introduction](getting-started/introduction.md)
+  - [requirements](getting-started/requirements.md)
+  - [file-structure](getting-started/file-structure.md)
+  - [features](getting-started/features.md)
+
+- installation
+  - [theme-install](installation/theme-install.md)
+  - [child-theme](installation/child-theme.md)
+  - [required-plugins](installation/required-plugins.md)
+  - [license](installation/license.md)
+- demo-import
+  - [one-click](demo-import/one-click.md)
+  - [manual-import](demo-import/manual-import.md)
+  - [troubleshooting](demo-import/troubleshooting.md)
+- customization
   - [上线流程](deploy/prod.md)
+- customization
+  - [上线流程](deploy/prod.md)
+- customization
+  - [上线流程](deploy/prod.md)
+- customization
