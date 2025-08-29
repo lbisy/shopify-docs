@@ -1,30 +1,18 @@
-# Video Popup（视频弹窗）
+# Video Popup Widget
 
-**功能概览**  
-点击按钮或图片后弹出视频播放，适合产品或宣传视频。
+Show a video in a popup modal when clicking a button or image.
 
-**功能特点**  
-- 支持 YouTube、Vimeo 或自定义视频  
-- 可设置触发按钮或图片  
-- 弹窗样式可自定义  
-- 响应式适配  
+---
 
-**使用步骤**  
-1. 拖入 **Video Popup** 小部件  
-2. 设置视频 URL  
-3. 选择触发方式（按钮 / 图片）  
-4. 设置弹窗样式  
-5. 点击 **更新**  
+## Settings
 
-**参数说明**
+- **Video Source**: YouTube, Vimeo, Self-hosted
+- **Trigger**: Button, Image, Text
+- **Style Options**: Button/Icon Design, Typography, Background
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 视频 URL | 视频链接 | YouTube / Vimeo / MP4 | - |
-| 触发方式 | 点击按钮或图片 | button / image | button |
-| 弹窗宽高 | px 或 % | - | 80% |
-| 自动播放 | 视频是否自动播放 | yes / no | yes |
-| 样式 | 弹窗背景和边框 | - | 默认 |
+---
 
-**示例截图**  
-![Video Popup 示例](/screenshot.png)
+## Screenshots
+
+### Video Popup Example
+![Screenshot Placeholder](../../.vuepress/public/screenshot.png)

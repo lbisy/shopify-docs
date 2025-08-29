@@ -1,29 +1,19 @@
-# Contact Form（联系表单）
+# Contact Form Widget
 
-**功能概览**  
-快速嵌入联系表单，支持 Contact Form 7 或其他表单插件。
+Embed a contact form easily using Elementor.
 
-**功能特点**  
-- 拖入页面即可使用  
-- 可选择表单插件  
-- 支持标题、按钮、样式自定义  
-- 响应式布局  
+---
 
-**使用步骤**  
-1. 拖入 **Contact Form** 小部件  
-2. 选择表单插件和表单 ID  
-3. 设置标题和按钮样式  
-4. 点击 **更新**  
+## Settings
 
-**参数说明**
+- **Form Plugin**: Supports Contact Form 7 or Elementor Form
+- **Fields**: Name, Email, Message, Custom Fields
+- **Button**: Text, Style, Alignment
+- **Style Options**: Input Fields, Typography, Colors, Spacing
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 表单插件 | CF7 / WPForms / 自定义 | CF7 | CF7 |
-| 表单 ID | 插件中表单编号 | 数字 | 1 |
-| 按钮文本 | 提交按钮文字 | - | Submit |
-| 布局 | 水平 / 垂直 | horizontal / vertical | vertical |
-| 样式 | 按钮颜色 / 字体 | hex / font | 默认 |
+---
 
-**示例截图**  
-![Contact Form 示例](/screenshot.png)
+## Screenshots
+
+### Contact Form Example
+![Screenshot Placeholder](../../.vuepress/public/screenshot.png)

@@ -1,29 +1,21 @@
-# Advanced Button（高级按钮）
+# Advanced Button Widget
 
-**功能概览**  
-支持渐变背景、图标、悬停动画的按钮模块，适合 CTA 或引导操作。
+Customizable button with gradient background, icon support, and hover effects.
 
-**功能特点**  
-- 多种背景类型（纯色/渐变/图片）  
-- 支持图标与文本组合  
-- 鼠标悬停动画丰富  
-- 可设置链接到任意页面或锚点  
+---
 
-**使用步骤**  
-1. Elementor 拖入 **Advanced Button**  
-2. 设置按钮文字和链接  
-3. 选择背景类型和颜色  
-4. 设置图标（可选）  
-5. 设置悬停效果  
-6. 点击 **更新**  
+## Settings
 
-**参数说明**
+- **Text & Icon**
+- **Link**: URL, Page, or Custom
+- **Size & Alignment**
+- **Color Options**: Normal and Hover states
+- **Border & Radius**
+- **Animation**: Hover effects and entrance animation
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 按钮文字 | 显示文本 | - | 按钮 |
-| 链接 | 跳转地址 | URL | # |
-| 背景类型 | 按钮背景 | solid / gradient / image | solid |
-| 悬停动画 | 鼠标悬停效果 | none / zoom / glow | none |
-| 图标 | 显示图标 | - | 无 |
-| 图标位置 | 图标显示位置 | left / right | left |
+---
+
+## Screenshots
+
+### Advanced Button Example
+![Screenshot Placeholder](../../.vuepress/public/screenshot.png)

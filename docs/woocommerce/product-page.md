@@ -1,29 +1,20 @@
-# WooCommerce 产品页面布局
+# Product Page
 
-**功能概览**  
-自定义 WooCommerce 产品页面显示效果，提高用户购买体验。
+Customize single product page layout.
 
-**功能特点**  
-- 多种产品页面布局  
-- 支持侧边栏、图片轮播  
-- 可设置购买按钮、库存显示  
-- 响应式设计  
+---
 
-**使用步骤**  
-1. WordPress 后台 > 外观 > 主题选项 > WooCommerce  
-2. 选择产品页面布局  
-3. 设置侧边栏、图片轮播、产品信息显示  
-4. 点击保存  
+## Settings
 
-**参数说明**
+- **Gallery Style**: Slider, Thumbnails, Zoom
+- **Title & Price Display**
+- **Add to Cart Button**: Text, Style
+- **Tabs**: Description, Additional Info, Reviews
+- **Related / Upsell Products**
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 布局 | 产品页布局 | grid / single / carousel | single |
-| 显示侧边栏 | 是否显示 | yes / no | yes |
-| 图片轮播 | 是否启用 | yes / no | yes |
-| 显示库存 | 是否显示库存 | yes / no | yes |
-| 显示购买按钮 | yes / no | yes |
+---
 
-**示例截图**  
-![WooCommerce 产品页 示例](/screenshot.png)
+## Screenshots
+
+### Product Page Example
+![Screenshot Placeholder](../.vuepress/public/screenshot.png)

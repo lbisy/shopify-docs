@@ -1,29 +1,19 @@
-# Portfolio Grid（作品集网格）
+# Portfolio Grid Widget
 
-**功能概览**  
-展示作品，支持分类筛选和多列布局。
+Showcase your work in a grid layout with optional category filters.
 
-**功能特点**  
-- 支持文章、作品集、自定义内容  
-- 可设置列数、间距、过滤器  
-- 支持鼠标悬停动画  
-- 响应式自适应布局  
+---
 
-**使用步骤**  
-1. 拖入 **Portfolio Grid** 小部件  
-2. 选择数据源  
-3. 设置列数、间距、过滤器  
-4. 点击 **更新**  
+## Settings
 
-**参数说明**
+- **Source**: Portfolio posts or custom post types
+- **Columns**: 1-6
+- **Filters**: Show categories
+- **Hover Effects**: Zoom, Fade, Overlay
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 数据源 | 内容类型 | posts / custom | posts |
-| 列数 | 网格列数 | 1~6 | 3 |
-| 间距 | 项间距 | px | 20 |
-| 过滤器 | 分类筛选显示 | yes / no | yes |
-| 悬停动画 | 鼠标悬停效果 | none / zoom / fade | fade |
+---
 
-**示例截图**  
-![Portfolio Grid 示例](/screenshot.png)
+## Screenshots
+
+### Portfolio Grid Example
+![Screenshot Placeholder](../../.vuepress/public/screenshot.png)

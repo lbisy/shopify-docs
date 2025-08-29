@@ -1,33 +1,18 @@
-# Icon List（图标列表）
+# Icon List Widget
 
-**功能概览**  
-带图标的项目符号列表，适合展示服务、特点或步骤。
+Create a list of items with icons.
 
-**功能特点**  
-- 可选择多种图标库（FontAwesome/Material Icons 等）  
-- 每项支持标题和描述  
-- 布局：水平 / 垂直  
-- 样式可自定义：颜色、大小、间距  
+---
 
-**使用步骤**  
-1. 拖入 **Icon List** 小部件  
-2. 添加列表项（图标 + 标题 + 描述）  
-3. 设置布局与样式  
-4. 点击 **更新**  
+## Settings
 
-**参数说明**
+- **Items**: Text, Icon, Link
+- **Layout**: Horizontal / Vertical
+- **Style Options**: Icon Size, Color, Spacing, Typography
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 图标库 | 图标来源 | FontAwesome / Material / Custom | FontAwesome |
-| 图标大小 | 图标尺寸 | px | 24 |
-| 布局 | 列表排列方式 | vertical / horizontal | vertical |
-| 项间距 | 每项间距 | px | 15 |
-| 文字颜色 | 标题和描述颜色 | color | #000000 |
+---
 
-**示例截图**  
-![Icon List 示例](/screenshot.png)
+## Screenshots
 
-**常见问题**  
-- 图标显示异常 → 检查图标库是否加载  
-- 描述文字换行问题 → 调整宽度或间距
+### Icon List Example
+![Screenshot Placeholder](../../.vuepress/public/screenshot.png)

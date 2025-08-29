@@ -1,28 +1,19 @@
-# Blog Masonry（博客瀑布流）
+# Blog Masonry Widget
 
-**功能概览**  
-多列瀑布流布局展示博客文章。
+Display blog posts in a multi-column masonry layout.
 
-**功能特点**  
-- 支持文章分类过滤  
-- 可设置列数、间距  
-- 支持缩略图、标题、摘要  
-- 响应式设计  
+---
 
-**使用步骤**  
-1. 拖入 **Blog Masonry** 小部件  
-2. 选择文章分类  
-3. 设置列数、间距和显示内容  
-4. 点击 **更新**  
+## Settings
 
-**参数说明**
+- **Source**: Blog posts or categories
+- **Columns**: 2-4
+- **Pagination**: Numbered, Load More
+- **Style Options**: Title, Excerpt, Date, Read More Button
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 列数 | 博客列数 | 1~4 | 3 |
-| 间距 | 项间距 | px | 20 |
-| 显示元素 | 缩略图 / 标题 / 摘要 | yes / no | all |
-| 分类过滤 | 是否显示分类筛选 | yes / no | yes |
+---
 
-**示例截图**  
-![Blog Masonry 示例](/screenshot.png)
+## Screenshots
+
+### Blog Masonry Example
+![Screenshot Placeholder](../../.vuepress/public/screenshot.png)

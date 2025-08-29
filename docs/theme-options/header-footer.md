@@ -1,37 +1,30 @@
-# 页眉与页脚设置
+# Header & Footer Settings
 
-**功能概览**  
-自定义网站的页眉与页脚布局，支持多种样式和功能区域。
+Configure your site header and footer layouts.
 
-**功能特点**  
-- 多种页眉布局：标准、透明、粘性  
-- 多种页脚布局：单列、多列  
-- 支持 Elementor 自定义模板  
-- 响应式设计，支持移动端  
-- 快速添加社交图标、菜单、Logo  
+---
 
-**使用步骤**  
-1. 打开 **WordPress 后台 > 主题选项 > 页眉页脚**  
-2. 选择页眉布局类型（标准 / 透明 / 粘性）  
-3. 设置页脚列数和内容  
-4. 可通过 Elementor 自定义模板进一步调整  
-5. 点击 **保存更改**  
+## Header Options
 
-**参数说明**
+- **Header Layouts**: Classic, Centered, Transparent
+- **Logo**: Upload your site logo
+- **Navigation**: Menu items, Dropdowns
+- **Sticky Header**: Enable/Disable
+- **Style Options**: Background, Typography, Spacing
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 页眉布局 | 页眉样式 | standard / transparent / sticky | standard |
-| Logo | 网站标识 | 图片上传 | 默认 Logo |
-| 导航菜单 | 顶部菜单 | WordPress 菜单 | 主菜单 |
-| 页脚列数 | 页脚列数 | 1~4 | 3 |
-| 页脚内容 | 小部件 / 自定义 HTML | - | 默认文本 |
-| 社交图标 | 显示社交链接 | yes / no | yes |
+## Footer Options
 
-**示例截图**  
-![Header & Footer 示例](/screenshot.png)
+- **Footer Layouts**: Simple, Multi-column
+- **Widgets**: Add any WordPress widgets
+- **Social Links**
+- **Style Options**: Colors, Typography, Background
 
-**常见问题**  
-- 页眉不显示 → 检查模板是否正确分配  
-- 页脚小部件失效 → 确认小部件已启用
-    
+---
+
+## Screenshots
+
+### Header Example
+![Screenshot Placeholder](../.vuepress/public/screenshot.png)
+
+### Footer Example
+![Screenshot Placeholder](../.vuepress/public/screenshot.png)

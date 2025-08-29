@@ -1,27 +1,20 @@
-# 页面加载优化
+# Performance Optimization
 
-**功能概览**  
-提升网站性能，优化用户体验。
+Improve website speed and efficiency.
 
-**功能特点**  
-- 图片 Lazy Load  
-- CSS / JS 压缩  
-- 兼容缓存插件  
-- 减少 HTTP 请求  
+---
 
-**使用步骤**  
-1. 后台 > 主题选项 > 性能优化  
-2. 启用 Lazy Load 和缓存优化  
-3. 保存更改  
+## Settings
 
-**参数说明**
+- **Lazy Load Images**
+- **Minify CSS/JS**
+- **Cache Plugins Compatibility**
+- **CDN Integration**
+- **Defer Render-blocking Scripts**
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 图片 Lazy Load | 是否启用 | yes / no | yes |
-| CSS 压缩 | 是否压缩 CSS | yes / no | yes |
-| JS 压缩 | 是否压缩 JS | yes / no | yes |
-| 缓存插件兼容 | 自动适配 | yes / no | yes |
+---
 
-**示例截图**  
-![性能优化 示例](/screenshot.png)
+## Screenshots
+
+### Performance Settings
+![Screenshot Placeholder](../.vuepress/public/screenshot.png)

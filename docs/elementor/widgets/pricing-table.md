@@ -1,30 +1,20 @@
-# Pricing Table（价格表）
+# Pricing Table Widget
 
-**功能概览**  
-展示不同套餐价格与功能，让用户清晰对比。
+Showcase different pricing plans and features.
 
-**功能特点**  
-- 多列套餐布局  
-- 支持标题、价格、功能列表、按钮  
-- 高亮显示推荐套餐  
-- 响应式适配  
+---
 
-**使用步骤**  
-1. 拖入 **Pricing Table** 小部件  
-2. 添加套餐列，填写标题、价格、功能列表  
-3. 设置按钮文本和链接  
-4. 设置高亮套餐  
-5. 点击 **更新**  
+## Settings
 
-**参数说明**
+- **Plans**: Add multiple plans
+- **Features**: List features for each plan
+- **Highlight**: Emphasize a specific plan
+- **Button**: Text, Link
+- **Style Options**: Colors, Borders, Typography, Hover Effects
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 列数 | 套餐列数 | 1~6 | 3 |
-| 高亮套餐 | 是否突出显示 | yes / no | no |
-| 价格单位 | 货币符号 | $ / ¥ / € | $ |
-| 功能列表 | 每列显示功能 | - | - |
-| 按钮 | 购买或查看按钮 | - | - |
+---
 
-**示例截图**  
-![Pricing Table 示例](/screenshot.png)
+## Screenshots
+
+### Pricing Table Example
+![Screenshot Placeholder](../../.vuepress/public/screenshot.png)

@@ -1,30 +1,20 @@
-# Team Member（团队成员）
+# Team Member Widget
 
-**功能概览**  
-展示团队成员信息，包括头像、姓名、职位和社交链接。
+Show team members with photo, name, position, and social links.
 
-**功能特点**  
-- 支持图片上传  
-- 可设置姓名、职位、社交链接  
-- 布局：网格 / 列表  
-- 悬停显示额外信息  
+---
 
-**使用步骤**  
-1. 拖入 **Team Member** 小部件  
-2. 上传头像  
-3. 填写姓名、职位、社交链接  
-4. 设置布局和样式  
-5. 更新页面  
+## Settings
 
-**参数说明**
+- **Image**: Upload or select from Media Library
+- **Name & Position**
+- **Social Links**: Facebook, Twitter, LinkedIn, Instagram
+- **Layout**: Grid or Carousel
+- **Style Options**: Background, Borders, Shadow, Typography
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 布局 | 网格 / 列表 | grid / list | grid |
-| 显示社交链接 | 是否显示 | yes / no | yes |
-| 图片尺寸 | px | - | 150 |
-| 名称字体 | font-size | px / em | 16px |
-| 职位字体 | font-size | px / em | 14px |
+---
 
-**示例截图**  
-![Team Member 示例](/screenshot.png)
+## Screenshots
+
+### Team Member Example
+![Screenshot Placeholder](../../.vuepress/public/screenshot.png)

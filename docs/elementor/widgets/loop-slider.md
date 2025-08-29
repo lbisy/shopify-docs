@@ -1,36 +1,20 @@
-# Loop Slider（循环滑块）
+# Loop Slider Widget
 
-**功能概览**  
-Loop Slider 用于展示文章、产品或自定义内容的循环滑动效果。
+The **Loop Slider** widget allows you to showcase posts, products, or custom content in a sliding carousel.
 
-**功能特点**  
-- 支持数据源选择（文章 / 产品 / 自定义类型）  
-- 多种布局（水平 / 垂直）  
-- 自定义样式（标题、描述、背景）  
-- 导航设置（箭头、分页器、自动播放）  
-- 支持响应式和移动端自适应  
+---
 
-**使用步骤**  
-1. 打开 Elementor 页面编辑器  
-2. 拖入 **Loop Slider** 小部件  
-3. 选择数据源（文章/产品/自定义类型）  
-4. 设置布局、样式、导航  
-5. 点击 **更新** 保存更改  
+## Settings
 
-**参数说明**
+- **Content Source**: Posts, WooCommerce Products, Custom Post Types
+- **Layout**: Horizontal or vertical
+- **Navigation**: Arrows, Dots
+- **Style**: Background, Title, Description, Hover Effects
+- **Autoplay**: On/Off, Speed Control
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 数据源 | 循环显示内容类型 | posts / products / custom | posts |
-| 布局 | 滑块布局方向 | horizontal / vertical | horizontal |
-| 自动播放 | 是否自动滚动 | yes / no | yes |
-| 切换速度 | 滑动间隔（秒） | 1~10 | 5 |
-| 箭头导航 | 是否显示左右箭头 | yes / no | yes |
-| 分页器 | 是否显示分页点 | yes / no | yes |
+---
 
-**示例截图**  
-![Loop Slider 示例](/screenshot.png)
+## Screenshots
 
-**常见问题**  
-- 内容不显示 → 检查数据源是否有文章/产品  
-- 滑块不自动滚动 → 确认自动播放选项已开启  
+### Loop Slider in Elementor
+![Screenshot Placeholder](../../.vuepress/public/screenshot.png)

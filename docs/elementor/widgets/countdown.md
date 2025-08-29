@@ -1,29 +1,19 @@
-# Countdown Timer（倒计时器）
+# Countdown Timer Widget
 
-**功能概览**  
-显示限时促销倒计时，增加紧迫感。
+Show a countdown timer for promotions or events.
 
-**功能特点**  
-- 支持日期时间设置  
-- 可选择天/小时/分/秒显示  
-- 多种样式和颜色  
-- 响应式设计  
+---
 
-**使用步骤**  
-1. 拖入 **Countdown Timer**  
-2. 设置目标日期时间  
-3. 选择显示格式和样式  
-4. 点击 **更新**  
+## Settings
 
-**参数说明**
+- **End Date & Time**
+- **Layout**: Horizontal / Vertical
+- **Labels**: Days, Hours, Minutes, Seconds
+- **Style Options**: Typography, Colors, Background, Borders
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 目标日期 | 倒计时结束时间 | yyyy-mm-dd | - |
-| 显示单位 | 天/小时/分钟/秒 | yes / no | yes |
-| 样式 | 数字/文字样式 | multiple | default |
-| 颜色 | 文字颜色 | hex | #000000 |
-| 自动重置 | 是否循环倒计时 | yes / no | no |
+---
 
-**示例截图**  
-![Countdown Timer 示例](/screenshot.png)
+## Screenshots
+
+### Countdown Timer Example
+![Screenshot Placeholder](../../.vuepress/public/screenshot.png)

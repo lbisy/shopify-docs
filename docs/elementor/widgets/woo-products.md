@@ -1,29 +1,20 @@
-# WooCommerce 产品展示（Woo Products）
+# WooCommerce Products Widget
 
-**功能概览**  
-展示 WooCommerce 产品，支持网格或轮播。
+Show WooCommerce products in grid or carousel layout.
 
-**功能特点**  
-- 网格 / 轮播布局  
-- 支持分类过滤  
-- 显示价格、按钮、缩略图  
-- 自动响应式布局  
+---
 
-**使用步骤**  
-1. 拖入 **Woo Products** 小部件  
-2. 选择显示产品分类  
-3. 设置布局、列数、显示元素  
-4. 点击 **更新**  
+## Settings
 
-**参数说明**
+- **Source**: All products, categories, or tags
+- **Columns**: 2-6
+- **Navigation**: Arrows, Dots
+- **Display Options**: Title, Price, Add to Cart Button
+- **Style Options**: Typography, Colors, Background, Hover Effects
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 布局 | 网格 / 轮播 | grid / carousel | grid |
-| 列数 | 产品列数 | 1~6 | 4 |
-| 显示价格 | 是否显示价格 | yes / no | yes |
-| 显示按钮 | 添加到购物车按钮 | yes / no | yes |
-| 分类过滤 | 是否启用分类过滤 | yes / no | yes |
+---
 
-**示例截图**  
-![Woo Products 示例](/screenshot.png)
+## Screenshots
+
+### Woo Products Example
+![Screenshot Placeholder](../../.vuepress/public/screenshot.png)

@@ -1,26 +1,25 @@
-# WooCommerce 购物车与结账页
+# Cart & Checkout
 
-**功能概览**  
-自定义购物车与结账页面，优化用户体验。
+Configure cart and checkout pages.
 
-**功能特点**  
-- 可设置购物车布局  
-- 支持结账字段自定义  
-- 支持优惠码和多种支付方式  
+---
 
-**使用步骤**  
-1. 后台 > WooCommerce > 设置 > 购物车 / 结账  
-2. 配置页面布局和结账字段  
-3. 保存更改  
+## Cart Page
 
-**参数说明**
+- **Columns**: Product, Price, Quantity, Total
+- **Buttons**: Update Cart, Continue Shopping
+- **Coupon Field**
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 布局 | 购物车页布局 | standard / compact | standard |
-| 支付方式 | 支持的支付网关 | PayPal / Stripe / COD | PayPal |
-| 结账字段 | 自定义显示字段 | - | 默认 |
-| 优惠码 | 启用 / 禁用 | yes / no | yes |
+## Checkout Page
 
-**示例截图**  
-![Cart & Checkout 示例](/screenshot.png)
+- **Billing & Shipping Fields**
+- **Payment Gateways**
+- **Order Notes**
+- **Style Options**: Typography, Colors, Buttons
+
+---
+
+## Screenshots
+
+### Cart & Checkout Example
+![Screenshot Placeholder](../.vuepress/public/screenshot.png)
