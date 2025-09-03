@@ -1,6 +1,6 @@
 # Requirements
 
-Before you install and use **MyTheme**, please make sure your hosting environment meets the minimum requirements.
+Before you install and use **Esen**, please make sure your hosting environment meets the minimum requirements.
 
 ## WordPress Requirements
 
@@ -27,7 +27,7 @@ Before you install and use **MyTheme**, please make sure your hosting environmen
 
 ## Recommended Plugins
 
-To unlock the full power of MyTheme, make sure the following plugins are installed:
+To unlock the full power of Esen, make sure the following plugins are installed:
 - **Elementor** (free or Pro)  
 - **WooCommerce** (if you need eCommerce features)  
 - **Contact Form 7** or **WPForms** (for forms)  
@@ -35,4 +35,4 @@ To unlock the full power of MyTheme, make sure the following plugins are install
 （此处可添加 PHP 信息截图）  
 ![PHP 信息示例](../.vuepress/public/getting-started/php-info.png)
 
-> ✅ Having these requirements in place will ensure smooth installation and usage of MyTheme.
+> ✅ Having these requirements in place will ensure smooth installation and usage of Esen.

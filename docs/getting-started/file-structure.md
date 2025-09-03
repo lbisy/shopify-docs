@@ -1,10 +1,10 @@
 # File Structure
 
-When you download **MyTheme**, you will receive a `.zip` package that includes all necessary files.  
+When you download **Esen**, you will receive a `.zip` package that includes all necessary files.  
 Below is the structure and explanation of each folder.
 
-            mytheme/
-                ├── mytheme.zip # Installable WordPress theme
+            Esen/
+                ├── Esen.zip # Installable WordPress theme
                 ├── child-theme/ # Child theme for safe customization
                 ├── demo-data/ # Demo import files
                 ├── documentation/ # Documentation (this guide)
@@ -14,7 +14,7 @@ Below is the structure and explanation of each folder.
 
 ## Explanation
 
-- **mytheme.zip** – The main theme file. Upload this in WordPress to install the theme.  
+- **Esen.zip** – The main theme file. Upload this in WordPress to install the theme.  
 - **child-theme/** – A pre-configured child theme that allows you to safely customize code without affecting updates.  
 - **demo-data/** – Contains XML/WIE files for demo content import (optional).  
 - **documentation/** – Offline version of this documentation.  

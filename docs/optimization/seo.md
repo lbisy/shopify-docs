@@ -1,28 +1,20 @@
-# SEO 基础设置
+# SEO Settings
 
-**功能概览**  
-内置 SEO 优化设置，帮助提升搜索引擎排名。
+Basic SEO settings for better search visibility.
 
-**功能特点**  
-- 设置全局标题和描述  
-- 支持面包屑导航  
-- 自动生成 Sitemap  
-- 兼容 Yoast SEO / Rank Math  
+---
 
-**使用步骤**  
-1. 后台 > 主题选项 > SEO 设置  
-2. 设置网站标题、描述  
-3. 启用面包屑导航和 Sitemap  
-4. 保存更改  
+## Settings
 
-**参数说明**
+- **Meta Titles & Descriptions**
+- **Open Graph & Social Tags**
+- **Breadcrumbs**
+- **Sitemap**
+- **Integration with SEO Plugins**: Yoast, RankMath
 
-| 参数 | 说明 | 可选值 | 默认值 |
-|------|------|--------|--------|
-| 全局标题 | 网站主标题 | text | 网站标题 |
-| 全局描述 | 网站描述 | text | 网站描述 |
-| 面包屑 | 是否启用 | yes / no | yes |
-| Sitemap | 是否生成 | yes / no | yes |
+---
 
-**示例截图**  
-![SEO 示例](/screenshot.png)
+## Screenshots
+
+### SEO Panel
+![Screenshot Placeholder](../.vuepress/public/screenshot.png)

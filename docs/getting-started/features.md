@@ -1,6 +1,6 @@
 # Features
 
-**MyTheme** is designed to be flexible, modern, and performance-oriented.  
+**Esen** is designed to be flexible, modern, and performance-oriented.  
 Here are the key features included:
 
 ## Design & Layout
@@ -41,4 +41,4 @@ Here are the key features included:
 （此处可添加移动端展示截图）  
 ![移动端示意](../.vuepress/public/getting-started/responsive.png)
 
-> 🎉 With these features, MyTheme helps you create a professional WordPress site in just a few clicks.
+> 🎉 With these features, Esen helps you create a professional WordPress site in just a few clicks.
