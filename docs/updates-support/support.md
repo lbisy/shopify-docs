@@ -14,13 +14,13 @@ We’re committed to providing helpful and timely support for all ESEN theme use
 
 ## What’s Covered
 
-✅ **Included in Theme Support**
+**Included in Theme Support**
 - Installation and setup guidance  
 - Bug fixes related to the original theme code  
 - Assistance with theme configuration and settings  
 - Clarification of features described in the documentation
 
-❌ **Not Covered**
+**Not Covered**
 - Custom feature development or new functionality  
 - Third-party app integration issues  
 - Shopify API or custom Liquid code errors introduced by users
@@ -45,7 +45,7 @@ To expedite your request, include:
 3. Include console errors (if any).  
 4. Email all details to our support team.
 
-> 📝 *Example:*
+>  *Example:*
 > ```
 > Subject: Bug Report - Product Gallery not Loading
 > Store: example.myshopify.com
@@ -59,7 +59,7 @@ To expedite your request, include:
 
 ---
 
-## 📷 Screenshot Placeholder
+##  Screenshot Placeholder
 _Add a screenshot here showing how to access the “Theme Support” section or contact form._
 
 ---

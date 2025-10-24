@@ -10,7 +10,7 @@ Keeping your ESEN theme updated ensures compatibility with Shopify’s latest fe
 2. Check the “Version” number under your purchase details.  
 3. Compare it with your installed theme version (found in `theme.liquid` comments or under **Theme Settings → About**).
 
-> 💡 *Tip:* Always backup your theme before updating to prevent data loss.
+>  *Tip:* Always backup your theme before updating to prevent data loss.
 
 ---
 
@@ -60,5 +60,5 @@ This ensures you can roll back easily if any issue occurs.
 
 ---
 
-## 📷 Screenshot Placeholder
+##  Screenshot Placeholder
 _Add a screenshot showing the “Theme Library → Actions → Duplicate” process._

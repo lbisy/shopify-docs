@@ -2,7 +2,7 @@
 
 This changelog lists all major updates and feature improvements made to the **ESEN** Shopify theme.
 
-> 📘 *Note:* Dates and versions below are placeholders. Replace them with your actual release history.
+>  *Note:* Dates and versions below are placeholders. Replace them with your actual release history.
 
 ---
 
