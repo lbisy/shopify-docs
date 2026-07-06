@@ -23,9 +23,10 @@ Before you begin, make sure:
 ---
 
 ##  Screenshot Example
-*(Insert your Shopify admin dashboard screenshot here)*  
- **Suggested size:** 1400 × 800 px  
-`/public/screenshots/shopify-dashboard.png`
+![alt text](image.png)
+<!-- *(Insert your Shopify admin dashboard screenshot here)*  
+ **Suggested size:** 1400 × 800 px   -->
+<!-- `/public/screenshots/shopify-dashboard.png` -->
 
 ---
 

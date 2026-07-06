@@ -8,7 +8,7 @@ If you still experience issues after reviewing the documentation and troubleshoo
 
 To ensure faster response time, include the following details:
 
-- **Theme Name and Version** (e.g., Ascent v1.2.0)  
+- **Theme Name and Version** (e.g., Esen v1.2.0)  
 - **Shopify Store URL** (e.g., yourstore.myshopify.com)  
 - **Description of the Issue**  
 - **Steps to Reproduce**  
